@@ -1,0 +1,48 @@
+
+/*this is the social media icons*/
+
+.con,
+.con1,
+.con2 {
+    position: fixed;
+    visibility: visible;
+    opacity: 0;
+    left: 25px;
+    z-index: 996;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.con {
+    bottom: 15%;
+    background: #000000;
+    border: 1px solid black;
+}
+
+.con1 {
+    bottom: 5%;
+    background: #16b137;
+    border: 1px solid green;
+
+}
+
+.con i,
+.con1 i{
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
+
+.con:hover,
+.con1:hover{
+    background: #000802;
+    color: #fff;
+}
+
+.con.active,
+.con1.active {
+    visibility: visible;
+    opacity: 1;
+}
