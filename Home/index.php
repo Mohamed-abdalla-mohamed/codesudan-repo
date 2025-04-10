@@ -39,10 +39,10 @@
   <!-- <a href="tel:+249961047266" class="con1 d-flex align-items-center justify-content-center active">
         <i class="fa fa-instagram"></i></a> -->
   <a href="" class="con1 d-flex align-items-center justify-content-center active">
-    <img class="img-thumbnail rounded-circle" src="../Images/fangIcons/whatsapp.png" width="50" height="50" alt="">
+    <img class="img-thumbnail rounded-circle" src="../images/fangIcons/whatsapp.png" width="50" height="50" alt="">
   </a>
   <a href="" class="con d-flex align-items-center justify-content-center active">
-    <img class="img-thumbnail rounded-circle" src="../Images/fangIcons/instgram.png" width="50" height="50" alt="">
+    <img class="img-thumbnail rounded-circle" src="../images/fangIcons/instgram.png" width="50" height="50" alt="">
   </a>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -115,7 +115,7 @@
       <!-- <div class="col"> -->
 
       <img
-        src="../../images/backgrounds/background4.jpg"
+        src="../images/backgrounds/background4.jpg"
         class="img-fluid"
         alt="image desc"
         width="100%" />
