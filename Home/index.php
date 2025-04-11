@@ -84,7 +84,7 @@
       </div>
     </div>
   </nav>
-
+  
   <!-- Hero Section -->
   <!-- <section class="hero-section mt-0" data-aos="fade-up">
     <div class="container">
@@ -205,8 +205,8 @@
   <!-- End Header Section -->
   <section class="hero-section mt-0 mb-5" data-aos="fade-up">
     <div class="container">
-      <div class="row align-items-center ">
-        <div class="col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
+      <div class="row  ">
+        <div class="col col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
           <!-- <h1 class="display-4 fw-bold">Welcome to ShopEase</h1> -->
           <p class=" h1" style="direction: rtl; text-align: center;">تصاميم متجاوبة مع كل الشاشات
             تصاميم متجاوبة مع كل الشاشات
@@ -216,8 +216,8 @@
             تصاميم متجاوبة مع كل الشاشات</p>
           <!-- <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a> -->
         </div>
-        <div class="col-md-6 mt-3 mb-3" data-aos="fade-left" data-aos-delay="400">
-          <img src="../images/logo.jpg" alt="Shopping" class="img-fluid">
+        <div class="col col-md-6 mt-3 mb-3 bg-dark" data-aos="fade-left" data-aos-delay="400">
+          <img src="../images/logo3.jpg" alt="Shopping" class="">
         </div>
       </div>
     </div>
