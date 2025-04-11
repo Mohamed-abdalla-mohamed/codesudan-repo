@@ -220,7 +220,7 @@
           <!-- <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a> -->
         </div>
         <div class="col col-md-6 mt-3 mb-3 bg-dark" data-aos="fade-left" data-aos-delay="400">
-          <img src="../images/backgrounds/background4.jpg" alt="Shopping" class="">
+          <img src="../images/backgrounds/background4.jpg" alt="Shopping" class="img-fluid">
         </div>
       </div>
     </div>
