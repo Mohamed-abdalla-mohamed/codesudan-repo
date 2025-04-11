@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="موقع كود سودان  هو موقع الكتروني متخصص في تصميم وبرمجة مواقع الانترنت  المتاجر الالكترونية للافراد و المؤسسات والشركات و المواقع الشخصية ">
   <meta name="keywords" content="كود سودان,تصميم,برمجة,تصميم موقع,برمجة المواقع,متاجر الكترونية,تصميم متجر الكتروني
-,برمجة موقع الكتروني,مصمم مواقع,مبرمج مواقع,تصميم موقع شركة,تصميم موقع الكتروني,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,">
+,برمجة موقع الكتروني,مصمم مواقع,مبرمج مواقع,تصميم موقع شركة,تصميم موقع الكتروني">
   <title>الرئيسية-كود سودان</title>
   <?php
   require_once('../includes/head/head.php');
@@ -220,7 +220,7 @@
           <!-- <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a> -->
         </div>
         <div class="col col-md-6 mt-3 mb-3 bg-dark" data-aos="fade-left" data-aos-delay="400">
-          <img src="../images/logo3.jpg" alt="Shopping" class="">
+          <img src="../images/backgrounds/background4.jpg" alt="Shopping" class="">
         </div>
       </div>
     </div>
