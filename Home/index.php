@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description" content="موقع كود سودان  هو موقع الكتروني متخصص في تصميم وبرمجة مواقع الانترنت  المتاجر الالكترونية للافراد و المؤسسات والشركات و المواقع الشخصية ">
+  <meta name="keywords" content="كود سودان,تصميم,برمجة,تصميم موقع,برمجة المواقع,متاجر الكترونية,تصميم متجر الكتروني
+,برمجة موقع الكتروني,مصمم مواقع,مبرمج مواقع,تصميم موقع شركة,تصميم موقع الكتروني,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,">
+  <title>الرئيسية-كود سودان</title>
   <?php
   require_once('../includes/head/head.php');
   ?>
