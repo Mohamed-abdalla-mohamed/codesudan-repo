@@ -225,6 +225,182 @@
       </div>
     </div>
   </section>
+
+  <section class="mt-5 mb-5 pt-5 pb-5 bg-dark">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
+          <div class="card border border-rounded rounded rounded-3">
+            <img src="../images/backgrounds/background1.jpg" alt="">
+            <div class="card-body text-center">
+              <p class="card-text h3 mb-4 mt-3">
+                تصميم وبرمجة المتاجر الالكترونية
+              </p>
+
+              <a href="#" class="btn btn-primary pull-right">
+                تواصل الان
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
+          <div class="card border border-rounded rounded rounded-3">
+            <img src="../images/backgrounds/background1.jpg" alt="">
+            <div class="card-body text-center">
+              <p class="card-text h3 mb-4 mt-3">
+                تصميم وبرمجة مواقع الشركات و المؤسسات
+              </p>
+
+              <a href="#" class="btn btn-primary pull-right">
+                تواصل الان
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
+          <div class="card border border-rounded rounded rounded-3">
+            <img src="../images/backgrounds/background1.jpg" alt="">
+            <div class="card-body text-center">
+              <p class="card-text h3 mb-4 mt-3">
+               تصميم مواقع الخدمات الالكترونية
+              </p>
+
+              <a href="#" class="btn btn-primary pull-right">
+                تواصل الان
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
+          <div class="card border border-rounded rounded rounded-3">
+            <img src="../images/backgrounds/background1.jpg" alt="">
+            
+            <div class="card-body text-center">
+             
+              <p class="card-text h3 mb-4 mt-3">
+                تصميم وبرمجة صفحات الهبوط
+              </p>
+
+              <a href="#" class="btn btn-primary pull-right">
+                تواصل الان
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-5 mb-5 pt-5 pb-5 bg-white">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
+         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+            <div class="card-body text-center">
+              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                HTML
+              </h2>   
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-up" data-aos-delay="200">
+         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+            <div class="card-body text-center">
+              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                CSS
+              </h2>   
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-down" data-aos-delay="250">
+         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+            <div class="card-body text-center">
+              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                JAVASCRIPT
+              </h2>   
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-left" data-aos-delay="300">
+         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+            <div class="card-body text-center">
+              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                PHP
+              </h2>   
+            </div>
+          </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="row">
+        
+        <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-left" data-aos-delay="350">
+         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+            <div class="card-body text-center">
+              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                BOOTSTRAP
+              </h2>   
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-down" data-aos-delay="400">
+         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+            <div class="card-body text-center">
+              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                REACT
+              </h2>   
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-up" data-aos-delay="450">
+         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+            <div class="card-body text-center">
+              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                LARAVEL
+              </h2>   
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="500">
+         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+            <div class="card-body text-center">
+              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                MYSQL
+              </h2>   
+            </div>
+          </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
   <section class="hero-section mt-5 mb-5" data-aos="fade-up">
     <div class="container">
       <div class="row align-items-center ">
