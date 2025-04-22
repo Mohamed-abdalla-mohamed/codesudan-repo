@@ -444,7 +444,7 @@
           <!-- <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a> -->
         </div>
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-left" data-aos-delay="400">
-          <img src="../../images/backgrounds/background4.jpg" alt="Shopping" class="img-fluid">
+          <img src="../images/backgrounds/background4.jpg" alt="Shopping" class="img-fluid">
         </div>
       </div>
     </div>
@@ -453,7 +453,7 @@
     <div class="container">
       <div class="row align-items-center ">
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-left" data-aos-delay="400">
-          <img src="../../images/backgrounds/background4.jpg" alt="Shopping" class="img-fluid">
+          <img src="../images/backgrounds/background4.jpg" alt="Shopping" class="img-fluid">
         </div>
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
           <!-- <h1 class="display-4 fw-bold">Welcome to ShopEase</h1> -->
