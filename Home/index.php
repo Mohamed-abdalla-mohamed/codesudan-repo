@@ -207,16 +207,26 @@
   </section> -->
   <!-- End Header Section -->
   <section class="hero-section mt-0 mb-5" data-aos="fade-up">
+ 
     <div class="container">
+    <div class="container mt-2 mb-3">
+          <div class="row">
+          <div class="col text-center">
+            <hr class="">
+          </div>
+          <div class="col col-2 text-center"><h1>من نحن</h1></div>
+          <div class="col text-center">
+            <hr>
+          </div>
+          </div>
+      </div>
       <div class="row  ">
         <div class="col col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
           <!-- <h1 class="display-4 fw-bold">Welcome to ShopEase</h1> -->
-          <p class=" h1" style="direction: rtl; text-align: center;">تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات</p>
+          <p class=" h1" style="direction: rtl; text-align: center;">
+        كود سودان هو موقع  متخصص في تصميم وبرمجة مواقع الويب و المتاجر الالكترونية و مواقع الشركات و المؤسسات و مواقع الخدمات وغيرها من المواقع الالترونية بانواعها المختلفة 
+
+        </p>
           <!-- <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a> -->
         </div>
         <div class="col col-md-6 mt-3 mb-3 bg-dark" data-aos="fade-left" data-aos-delay="400">
@@ -226,8 +236,19 @@
     </div>
   </section>
 
-  <section class="mt-5 mb-5 pt-5 pb-5 bg-dark">
-    <div class="container">
+  <section class="mt-5 mb-5 pt-5 pb-5 bg-white">
+  <div class="container mt-2 mb-3">
+          <div class="row">
+          <div class="col text-center">
+            <hr class="text-danger">
+          </div>
+          <div class="col col-2 text-center"><h1>مجال عملنا</h1></div>
+          <div class="col text-center">
+            <hr>
+          </div>
+          </div>
+      </div>
+    <div class="container bg-dark">
       <div class="row">
         
         <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
@@ -294,6 +315,17 @@
 
   <section class="mt-5 mb-5 pt-5 pb-5 bg-white">
     <div class="container">
+      <div class="container mt-2 mb-3">
+          <div class="row">
+          <div class="col text-center">
+            <hr class="text-danger">
+          </div>
+          <div class="col col-2 text-center"><h1>خبراتنا</h1></div>
+          <div class="col text-center">
+            <hr>
+          </div>
+          </div>
+      </div>
       <div class="row">
         
         <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
@@ -406,12 +438,9 @@
       <div class="row align-items-center ">
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
           <!-- <h1 class="display-4 fw-bold">Welcome to ShopEase</h1> -->
-          <p class=" h1" style="direction: rtl; text-align: center;">تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات</p>
+          <p class=" h1" style="direction: rtl; text-align: center;">
+          في كود سودان نسعى لتصميم مواقع حديثة وعصرية تجذب الزوار و تلبي احتياجات العملاء
+            </p>
           <!-- <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a> -->
         </div>
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-left" data-aos-delay="400">
