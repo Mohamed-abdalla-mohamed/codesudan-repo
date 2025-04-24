@@ -27,6 +27,8 @@
 }
 </style>
 
+<link href="../images/logo.png" rel="icon">
+    <link href="../images/logo.png" rel="apple-touch-icon">
 <!-- <style>
     *{
       direction: rtl;
@@ -37,7 +39,7 @@
 
 <body class="" style="background-color: #1B1464;">
 
-  <a href="https://wa.me/qr/3GOYYFHLHWESA1" class="con d-flex align-items-center justify-content-center active">
+  <a href="https://wa.me/qr/+249926611304" class="con d-flex align-items-center justify-content-center active">
     <i class="fa fa-whatsapp"></i></a>
   <!-- <a href="tel:+249961047266" class="con1 d-flex align-items-center justify-content-center active">
         <i class="fa fa-instagram"></i></a> -->
@@ -131,7 +133,7 @@
   <section class="mt-5" data-aos="fade-up" data-aos-delay="100">
     <div class="container bg-white rounded-3">
       <div class="row">
-        <div class="col mt-3" data-aos="fade-right" data-aos-delay="150">
+        <div class="col col-6 col-md-3  mt-3" data-aos="fade-right" data-aos-delay="150">
           <div class="card">
             <img src="" alt="">
             <div class="card-body">
@@ -146,7 +148,7 @@
             </div>
           </div>
         </div>
-        <div class="col mt-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="col col-6 col-md-3 mt-3" data-aos="fade-up" data-aos-delay="200">
           <div class="card">
             <img src="" alt="">
             <div class="card-body">
@@ -161,7 +163,7 @@
             </div>
           </div>
         </div>
-        <div class="col mt-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="col col-6 col-md-3 mt-3" data-aos="fade-up" data-aos-delay="200">
           <div class="card">
             <img src="" alt="">
             <div class="card-body">
@@ -176,7 +178,7 @@
             </div>
           </div>
         </div>
-        <div class="col mt-3" data-aos="fade-left" data-aos-delay="300">
+        <div class="col col-6 col-md-3 mt-3" data-aos="fade-left" data-aos-delay="300">
           <div class="card">
             <img src="" alt="">
             <div class="card-body">
@@ -214,14 +216,14 @@
           <div class="col text-center">
             <hr class="">
           </div>
-          <div class="col col-2 text-center"><h1>من نحن</h1></div>
+          <div class="col col-4 col-md-2 text-center"><h1 class="text-dark">من نحن</h1></div>
           <div class="col text-center">
             <hr>
           </div>
           </div>
       </div>
       <div class="row  ">
-        <div class="col col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
+        <div class="col col-12 col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
           <!-- <h1 class="display-4 fw-bold">Welcome to ShopEase</h1> -->
           <p class=" h1" style="direction: rtl; text-align: center;">
         كود سودان هو موقع  متخصص في تصميم وبرمجة مواقع الويب و المتاجر الالكترونية و مواقع الشركات و المؤسسات و مواقع الخدمات وغيرها من المواقع الالترونية بانواعها المختلفة 
@@ -229,7 +231,7 @@
         </p>
           <!-- <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a> -->
         </div>
-        <div class="col col-md-6 mt-3 mb-3 bg-dark" data-aos="fade-left" data-aos-delay="400">
+        <div class="col col-12 col-md-6 mt-3 mb-3 bg-dark" data-aos="fade-left" data-aos-delay="400">
           <img src="../images/backgrounds/background4.jpg" alt="Shopping" class="img-fluid">
         </div>
       </div>
@@ -242,7 +244,7 @@
           <div class="col text-center">
             <hr class="text-danger">
           </div>
-          <div class="col col-2 text-center"><h1>مجال عملنا</h1></div>
+          <div class="col col-4 col-md-2 text-center mt-2 mb-2"><h1 class="text-dark">مجال عملنا</h1></div>
           <div class="col text-center">
             <hr>
           </div>
@@ -357,9 +359,9 @@
         <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
             <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
             <div class="card-body text-center">
-              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+              <h5 class=" mb-4 mt-3" style="color: #FFFFFF;">
                 JAVASCRIPT
-              </h2>   
+              </h5>   
             </div>
           </div>
           </div>
@@ -602,10 +604,10 @@
     </div>
   </div>
   </section>
-  <section>
+  <section class="bg-primary">
     <div class="container bg-white rounded-3 bg-primary mt-5 mb-5 pt-5 pb-5 border border-1 border-danger" style="text-align:center;   direction: rtl; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; font-style: italic;">
-      <div class="row">
-        <div class="col">
+      <div class="row ">
+        <div class="col ">
           <p class="h3 " style="direction:rtl; text-align:right; font-family:cursive; font-style: oblique; ">
             كود سودان هو موقع الكتروني متخصص في برمجة وتصميم المتاجر الالكترونية
             و مواقع الشركات و المؤسسات و المواقع الالكترونية بانواعها المختلفة
@@ -623,12 +625,12 @@
         <input class="form-control" type="hidden" name="language" vlaue="php">
         <input class="form-control" type="hidden" name="lesson" value="lesson1">
 
-        <input class="form-control border border-2 border-primary m-2" type="text" name="userName"
+        <input class="form-control border border-2 border-primary" type="text" name="userName"
           id="Name" placeholder="ادخل اسمك">
-        <input class="form-control border border-2 border-primary m-2" type="email" name="userEmail"
+        <input class="form-control border border-2 border-primary" type="email" name="userEmail"
           id="Email" placeholder="بريدك الالكتروني">
         <div class="form-group">
-          <textarea class="form-control border border-2 border-primary m-2" name="userComment"
+          <textarea class="form-control border border-2 border-primary" name="userComment"
             id="Comment" rows="3" placeholder="اكتب الرسالة"></textarea>
           <textarea class="form-control" id="json" name="json" rows="3" hidden></textarea>
         </div>
@@ -638,7 +640,7 @@
     <!--this is to add new comment-->
   </section>
   <!-- Footer -->
-  <footer class="bg-dark text-light py-4">
+  <footer class="bg-dark text-light">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
