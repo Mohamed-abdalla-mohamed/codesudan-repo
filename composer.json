@@ -1,0 +1,17 @@
+{
+    "name": "hp/codesudan",
+    "autoload": {
+        "psr-4": {
+            "Hp\\Codesudan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohamed abdalla",
+            "email": "almgromalmgroma@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "11.0.0"
+    }
+}

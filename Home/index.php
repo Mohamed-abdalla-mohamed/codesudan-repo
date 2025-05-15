@@ -2,10 +2,15 @@
 <html lang="en">
 
 <head>
+
+  <link href="../images/logo.png" rel="icon">
+  <link href="../images\logo.png" rel="apple-touch-icon">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="description" content="موقع كود سودان  هو موقع الكتروني متخصص في تصميم وبرمجة مواقع الانترنت  المتاجر الالكترونية للافراد و المؤسسات والشركات و المواقع الشخصية ">
-  <meta name="keywords" content="كود سودان,تصميم,برمجة,تصميم موقع,برمجة المواقع,متاجر الكترونية,تصميم متجر الكتروني
+   
+  <meta name="keywords" content="كود سودان,تصميم,برمجة,تصميم موقع,برمجة المواقع,متاجر الكترونية,تصميم متجر الكتروني
 ,برمجة موقع الكتروني,مصمم مواقع,مبرمج مواقع,تصميم موقع شركة,تصميم موقع الكتروني">
   <title>الرئيسية-كود سودان</title>
   <?php
@@ -17,19 +22,18 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="socialmediaicons.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=El+Messiri:wght@400..700&family=Lateef:wght@200;300;400;500;600;700;800&family=Rakkas&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
-<style>
-*{
-  font-family: "Amiri", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-</style>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=El+Messiri:wght@400..700&family=Lateef:wght@200;300;400;500;600;700;800&family=Rakkas&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
 
-<link href="../images/logo.png" rel="icon">
-    <link href="../images/logo.png" rel="apple-touch-icon">
-<!-- <style>
+  <style>
+    * {
+      font-family: "Amiri", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
+
+  <!-- <style>
     *{
       direction: rtl;
       font-family:sans-serif ;
@@ -39,11 +43,11 @@
 
 <body class="" style="background-color: #1B1464;">
 
-  <a href="https://wa.me/qr/+249926611304" class="con d-flex align-items-center justify-content-center active">
+  <a href="https://wa.me/+249926611304" class="con d-flex align-items-center justify-content-center active">
     <i class="fa fa-whatsapp"></i></a>
   <!-- <a href="tel:+249961047266" class="con1 d-flex align-items-center justify-content-center active">
         <i class="fa fa-instagram"></i></a> -->
-  <a href="" class="con1 d-flex align-items-center justify-content-center active">
+  <a href="https://wa.me/+249926611304" class="con1 d-flex align-items-center justify-content-center active">
     <img class="img-thumbnail rounded-circle" src="../images/fangIcons/whatsapp.png" width="50" height="50" alt="">
   </a>
   <a href="" class="con d-flex align-items-center justify-content-center active">
@@ -89,7 +93,7 @@
       </div>
     </div>
   </nav>
-  
+
   <!-- Hero Section -->
   <!-- <section class="hero-section mt-0" data-aos="fade-up">
     <div class="container">
@@ -209,26 +213,28 @@
   </section> -->
   <!-- End Header Section -->
   <section class="hero-section mt-0 mb-5" data-aos="fade-up">
- 
+
     <div class="container">
-    <div class="container mt-2 mb-3">
-          <div class="row">
+      <div class="container mt-2 mb-3">
+        <div class="row">
           <div class="col text-center">
             <hr class="">
           </div>
-          <div class="col col-4 col-md-2 text-center"><h1 class="text-dark">من نحن</h1></div>
+          <div class="col col-4 col-md-2 text-center">
+            <h1 class="text-dark">من نحن</h1>
+          </div>
           <div class="col text-center">
             <hr>
           </div>
-          </div>
+        </div>
       </div>
       <div class="row  ">
         <div class="col col-12 col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
           <!-- <h1 class="display-4 fw-bold">Welcome to ShopEase</h1> -->
           <p class=" h1" style="direction: rtl; text-align: center;">
-        كود سودان هو موقع  متخصص في تصميم وبرمجة مواقع الويب و المتاجر الالكترونية و مواقع الشركات و المؤسسات و مواقع الخدمات وغيرها من المواقع الالترونية بانواعها المختلفة 
+            كود سودان هو موقع متخصص في تصميم وبرمجة مواقع الويب و المتاجر الالكترونية و مواقع الشركات و المؤسسات و مواقع الخدمات وغيرها من المواقع الالترونية بانواعها المختلفة
 
-        </p>
+          </p>
           <!-- <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a> -->
         </div>
         <div class="col col-12 col-md-6 mt-3 mb-3 bg-dark" data-aos="fade-left" data-aos-delay="400">
@@ -239,20 +245,22 @@
   </section>
 
   <section class="mt-5 mb-5 pt-5 pb-5 bg-white">
-  <div class="container mt-2 mb-3">
-          <div class="row">
-          <div class="col text-center">
-            <hr class="text-danger">
-          </div>
-          <div class="col col-4 col-md-2 text-center mt-2 mb-2"><h1 class="text-dark">مجال عملنا</h1></div>
-          <div class="col text-center">
-            <hr>
-          </div>
-          </div>
+    <div class="container mt-2 mb-3">
+      <div class="row">
+        <div class="col text-center">
+          <hr class="text-danger">
+        </div>
+        <div class="col col-4 col-md-2 text-center mt-2 mb-2">
+          <h1 class="text-dark">مجال عملنا</h1>
+        </div>
+        <div class="col text-center">
+          <hr>
+        </div>
       </div>
+    </div>
     <div class="container bg-dark">
       <div class="row">
-        
+
         <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
           <div class="card border border-rounded rounded rounded-3">
             <img src="../images/backgrounds/background1.jpg" alt="">
@@ -286,7 +294,7 @@
             <img src="../images/backgrounds/background1.jpg" alt="">
             <div class="card-body text-center">
               <p class="card-text h3 mb-4 mt-3">
-               تصميم مواقع الخدمات الالكترونية
+                تصميم مواقع الخدمات الالكترونية
               </p>
 
               <a href="#" class="btn btn-primary pull-right">
@@ -298,9 +306,9 @@
         <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
           <div class="card border border-rounded rounded rounded-3">
             <img src="../images/backgrounds/background1.jpg" alt="">
-            
+
             <div class="card-body text-center">
-             
+
               <p class="card-text h3 mb-4 mt-3">
                 تصميم وبرمجة صفحات الهبوط
               </p>
@@ -318,119 +326,121 @@
   <section class="mt-5 mb-5 pt-5 pb-5 bg-white">
     <div class="container">
       <div class="container mt-2 mb-3">
-          <div class="row">
+        <div class="row">
           <div class="col text-center">
             <hr class="text-danger">
           </div>
-          <div class="col col-2 text-center"><h1>خبراتنا</h1></div>
+          <div class="col col-2 text-center">
+            <h1>خبراتنا</h1>
+          </div>
           <div class="col text-center">
             <hr>
           </div>
-          </div>
+        </div>
       </div>
       <div class="row">
-        
+
         <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
-         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
-        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
-            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
-            <div class="card-body text-center">
-              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
-                HTML
-              </h2>   
+          <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+            <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+              <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+              <div class="card-body text-center">
+                <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                  HTML
+                </h2>
+              </div>
             </div>
-          </div>
           </div>
         </div>
         <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-up" data-aos-delay="200">
-         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
-        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
-            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
-            <div class="card-body text-center">
-              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
-                CSS
-              </h2>   
+          <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+            <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+              <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+              <div class="card-body text-center">
+                <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                  CSS
+                </h2>
+              </div>
             </div>
-          </div>
           </div>
         </div>
         <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-down" data-aos-delay="250">
-         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
-        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
-            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
-            <div class="card-body text-center">
-              <h5 class=" mb-4 mt-3" style="color: #FFFFFF;">
-                JAVASCRIPT
-              </h5>   
+          <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+            <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+              <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+              <div class="card-body text-center">
+                <h5 class=" mb-4 mt-3" style="color: #FFFFFF;">
+                  JAVASCRIPT
+                </h5>
+              </div>
             </div>
-          </div>
           </div>
         </div>
         <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-left" data-aos-delay="300">
-         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
-        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
-            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
-            <div class="card-body text-center">
-              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
-                PHP
-              </h2>   
+          <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+            <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+              <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+              <div class="card-body text-center">
+                <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                  PHP
+                </h2>
+              </div>
             </div>
-          </div>
           </div>
         </div>
-       
+
       </div>
       <div class="row">
-        
+
         <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-left" data-aos-delay="350">
-         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
-        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
-            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
-            <div class="card-body text-center">
-              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
-                BOOTSTRAP
-              </h2>   
+          <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+            <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+              <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+              <div class="card-body text-center">
+                <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                  BOOTSTRAP
+                </h2>
+              </div>
             </div>
-          </div>
           </div>
         </div>
         <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-down" data-aos-delay="400">
-         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
-        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
-            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
-            <div class="card-body text-center">
-              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
-                REACT
-              </h2>   
+          <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+            <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+              <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+              <div class="card-body text-center">
+                <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                  REACT
+                </h2>
+              </div>
             </div>
-          </div>
           </div>
         </div>
         <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-up" data-aos-delay="450">
-         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
-        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
-            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
-            <div class="card-body text-center">
-              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
-                LARAVEL
-              </h2>   
+          <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+            <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+              <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+              <div class="card-body text-center">
+                <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                  LARAVEL
+                </h2>
+              </div>
             </div>
-          </div>
           </div>
         </div>
         <div class="col col-6 col-sm-6 col-md-3  rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="500">
-         <div class=" p-2 rounded-3" style="background-color: #D4145A;">
-        <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
-            <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
-            <div class="card-body text-center">
-              <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
-                MYSQL
-              </h2>   
+          <div class=" p-2 rounded-3" style="background-color: #D4145A;">
+            <div class="card border border-rounded rounded rounded-5 " style="background-color: #1B1464;">
+              <!-- <img src="../images/backgrounds/background1.jpg" alt=""> -->
+              <div class="card-body text-center">
+                <h2 class="  text-bold mb-4 mt-3" style="color: #FFFFFF;">
+                  MYSQL
+                </h2>
+              </div>
             </div>
           </div>
-          </div>
         </div>
-       
+
       </div>
     </div>
   </section>
@@ -441,8 +451,8 @@
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
           <!-- <h1 class="display-4 fw-bold">Welcome to ShopEase</h1> -->
           <p class=" h1" style="direction: rtl; text-align: center;">
-          في كود سودان نسعى لتصميم مواقع حديثة وعصرية تجذب الزوار و تلبي احتياجات العملاء
-            </p>
+            في كود سودان نسعى لتصميم مواقع حديثة وعصرية تجذب الزوار و تلبي احتياجات العملاء
+          </p>
           <!-- <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a> -->
         </div>
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-left" data-aos-delay="400">
@@ -452,6 +462,7 @@
     </div>
   </section>
   <section class="hero-section mt-5 mb-5" data-aos="fade-up">
+
     <div class="container">
       <div class="row align-items-center ">
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-left" data-aos-delay="400">
@@ -499,7 +510,7 @@
       </div>
     </div>
   </section> -->
-  <section class="mt-5 mb-5 pt-5 pb-5 bg-dark">
+  <!-- <section class="mt-5 mb-5 pt-5 pb-5 bg-dark">
     <div class="container">
       <div class="row">
         <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-left" data-aos-delay="150">
@@ -564,47 +575,67 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <section>
 
-  <div class="container text-white">
-    <div class="row">
-      <ul
-        class=" justify-content-center  "
-        style="direction: rtl; list-style:none;">
-       
-       
-        <li class="nav-item h4">
-         <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true"> </i></span> <span class="text-white " >تصاميم متجاوبة مع كل الشاشات(التابليت - اللابتوب - الهاتف)</span>
-        </li>
-         
-        <li class="nav-item h4">
-         <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true"> </i></span> <span class="text-white " >تصاميم متجاوبة مع كل الشاشات(التابليت - اللابتوب - الهاتف)</span>
-        </li>
-         
-        <li class="nav-item h4">
-         <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true"> </i></span> <span class="text-white " >تصاميم متجاوبة مع كل الشاشات(التابليت - اللابتوب - الهاتف)</span>
-        </li>
-         
-        <li class="nav-item h4">
-         <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true"> </i></span> <span class="text-white " >تصاميم متجاوبة مع كل الشاشات(التابليت - اللابتوب - الهاتف)</span>
-        </li>
-         
-        <li class="nav-item h4">
-         <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true"> </i></span> <span class="text-white " >تصاميم متجاوبة مع كل الشاشات(التابليت - اللابتوب - الهاتف)</span>
-        </li>
-         
-        <li class="nav-item h4">
-         <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true"> </i></span> <span class="text-white " >تصاميم متجاوبة مع كل الشاشات(التابليت - اللابتوب - الهاتف)</span>
-        </li>
-       
-      
-       
-      </ul>
+    <div class="container text-white">
+      <div class="row">
+        <div class="container  bg-white mt-3 mb-5">
+          <div class="row mt-3">
+            <div class="col text-center">
+              <hr class="text-danger">
+            </div>
+            <div class="col col-2 text-center text-dark">
+              <h1>ما يميزنا</h1>
+            </div>
+            <div class="col text-center ">
+              <hr class="text-danger">
+            </div>
+          </div>
+        </div>
+        <ul
+          class=" justify-content-center  "
+          style="direction: rtl; list-style:none;">
+
+
+          <li class="nav-item h4">
+            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
+               </i></span> <span class="text-white ">تصاميم متجاوبة مع كل الشاشات(التابليت - اللابتوب - الهاتف)</span>
+          </li>
+
+          <li class="nav-item h4">
+            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true"> 
+
+            </i></span> <span class="text-white "> جمع وتحليل متطلبات العميل جيدا قبل بدء العمل </span>
+          </li>
+
+          <li class="nav-item h4">
+            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
+               </i></span> <span class="text-white"> سرعة التواصل و الرد على استفسارات العميل</span>
+          </li>
+
+          <li class="nav-item h4">
+            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
+               </i></span> <span class="text-white "> اسعار تناسب العملاء </span>
+          </li>
+
+          <li class="nav-item h4">
+            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
+               </i></span> <span class="text-white ">تسليم المشروع في الموعد المتفق عليه</span>
+          </li>
+
+          <li class="nav-item h4">
+            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
+               </i></span> <span class="text-white "> تقديم الدعم الفن للعميل مجانا بعد التسليم </span>
+          </li>
+
+
+
+        </ul>
+      </div>
     </div>
-  </div>
   </section>
-  <section class="bg-primary">
+  <!-- <section class="bg-primary">
     <div class="container bg-white rounded-3 bg-primary mt-5 mb-5 pt-5 pb-5 border border-1 border-danger" style="text-align:center;   direction: rtl; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; font-style: italic;">
       <div class="row ">
         <div class="col ">
@@ -615,25 +646,44 @@
         </div>
       </div>
     </div>
-  </section>
- 
+  </section> -->
+
   <section>
     <!--this is to add new comment-->
-    <div class="container  mt-5 mb-3">
-      <form method="post" action="addArticle3.php" data-aos="fade-left" data-aos-delay="200">
+
+    <div class="container  mt-5 mb-5">
+      <div class="container  bg-white mt-2 mb-5">
+        <div class="row ">
+          <div class="col text-center">
+            <hr class="text-danger">
+          </div>
+          <div class="col col-2 text-center">
+            <h1>تواصل معنا</h1>
+          </div>
+          <div class="col text-center">
+            <hr>
+          </div>
+        </div>
+      </div>
+      <form style="direction:rtl;" method="post" action="addArticle3.php" data-aos="fade-left" data-aos-delay="200">
         <input class="form-control" type="hidden" name="fileName" value="articles2.js">
         <input class="form-control" type="hidden" name="language" vlaue="php">
         <input class="form-control" type="hidden" name="lesson" value="lesson1">
 
-        <input class="form-control border border-2 border-primary" type="text" name="userName"
+        <input class="form-control border border-2 border-primary mt-2" type="text" name="userName"
           id="Name" placeholder="ادخل اسمك">
-        <input class="form-control border border-2 border-primary" type="email" name="userEmail"
+        <input class="form-control border border-2 border-primary mt-2" type="email" name="userEmail"
           id="Email" placeholder="بريدك الالكتروني">
-        <div class="form-group">
+        <div class="form-group mt-2">
           <textarea class="form-control border border-2 border-primary" name="userComment"
             id="Comment" rows="3" placeholder="اكتب الرسالة"></textarea>
           <textarea class="form-control" id="json" name="json" rows="3" hidden></textarea>
         </div>
+        <button
+          type="submit"
+          class=" form-control btn btn-primary mt-3 pt-2 pb-2">
+          ارسل الرسالة
+        </button>
 
       </form>
     </div>
@@ -642,29 +692,31 @@
   <!-- Footer -->
   <footer class="bg-dark text-light">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5>About ShopEase</h5>
-          <p>Your premium shopping destination for quality products and excellent service.</p>
-        </div>
-        <div class="col-md-4">
-          <h5>Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="privacy.php">Privacy Policy</a></li>
-            <li><a href="terms.php">Terms & Conditions</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h5>Connect With Us</h5>
-          <div class="social-links">
+      <div class="row pt-5">
+         <div class="col-md-4">
+          <h5 class="text-center">تواصل معنا</h5>
+          <div class="social-links text-center mt-5">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
+       
+        <div class="col-md-4">
+          <h5 class="text-center">الصفحات</h5>
+          <ul class="list-unstyled text-center mt-5">
+            <li><a class="text-white" href="about.php" style="text-decoration:none;">حول الموقع</a></li>
+            <li><a class="text-white" href="contact.php" style="text-decoration:none;">التواصل</a></li>
+            <li><a class="text-white" href="privacy.php" style="text-decoration:none;">خدماتنات</a></li>
+            <li><a class="text-white" href="terms.php" style="text-decoration:none;">نماذج اعمالنا</a></li>
+          </ul>
+        </div>
+         <div class="col-md-4">
+          <h5 class="text-center">كود سودان</h5>
+          <p class="text-center mt-5">موقع كود سودان هو موقع الكتروني متخصص في تصميم وبرمجة المواقع و المتاجر الالكترونية للافراد و الشركات</p>
+        </div>       
+        
       </div>
     </div>
   </footer>
