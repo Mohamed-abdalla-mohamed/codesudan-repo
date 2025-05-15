@@ -84,7 +84,7 @@
             <!-- <div class="col"> -->
 
             <img
-                src="../../images/backgrounds/background4.jpg"
+                src="../images/backgrounds/background4.jpg"
                 class="img-fluid"
                 alt="image desc"
                 width="100%" />
@@ -767,34 +767,37 @@
     </div>
    </section>
     <!-- Footer -->
-    <footer class="bg-dark text-light py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>About ShopEase</h5>
-                    <p>Your premium shopping destination for quality products and excellent service.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                        <li><a href="privacy.php">Privacy Policy</a></li>
-                        <li><a href="terms.php">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Connect With Us</h5>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
+  <footer class="bg-dark text-light">
+    <div class="container">
+      <div class="row pt-5">
+         <div class="col-md-4">
+          <h5 class="text-center">تواصل معنا</h5>
+          <div class="social-links text-center mt-5">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
         </div>
-    </footer>
+       
+        <div class="col-md-4">
+          <h5 class="text-center">الصفحات</h5>
+          <ul class="list-unstyled text-center mt-5">
+            <li><a class="text-white" href="about.php" style="text-decoration:none;">حول الموقع</a></li>
+            <li><a class="text-white" href="contact.php" style="text-decoration:none;">التواصل</a></li>
+            <li><a class="text-white" href="privacy.php" style="text-decoration:none;">خدماتنات</a></li>
+            <li><a class="text-white" href="terms.php" style="text-decoration:none;">نماذج اعمالنا</a></li>
+          </ul>
+        </div>
+         <div class="col-md-4">
+          <h5 class="text-center">كود سودان</h5>
+          <p class="text-center mt-5">موقع كود سودان هو موقع الكتروني متخصص في تصميم وبرمجة المواقع و المتاجر الالكترونية للافراد و الشركات</p>
+        </div>       
+        
+      </div>
+    </div>
+  </footer>
+ <!-- End Footer Section-->
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
