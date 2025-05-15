@@ -2,9 +2,17 @@
 <html lang="en">
 
 <head>
+
+  <link href="../images/logo.png" rel="icon">
+  <link href="../images\logo.png" rel="apple-touch-icon">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+
+  <meta name="description" content="موقع كود سودان  هو موقع الكتروني متخصص في تصميم وبرمجة مواقع الانترنت  المتاجر الالكترونية للافراد و المؤسسات والشركات و المواقع الشخصية ">
+   
+  <meta name="keywords" content="كود سودان,تصميم,برمجة,تصميم موقع,برمجة المواقع,متاجر الكترونية,تصميم متجر الكتروني
+,برمجة موقع الكتروني,مصمم مواقع,مبرمج مواقع,تصميم موقع شركة,تصميم موقع الكتروني">
+  <title>الرئيسية-كود سودان</title>
   <?php
   require_once('../includes/head/head.php');
   ?>
@@ -13,25 +21,43 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="socialmediaicons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=El+Messiri:wght@400..700&family=Lateef:wght@200;300;400;500;600;700;800&family=Rakkas&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      font-family: "Amiri", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
+
+  <!-- <style>
+    *{
+      direction: rtl;
+      font-family:sans-serif ;
+    }
+  </style> -->
 </head>
 
-<body>
+<body class="" style="background-color: #1B1464;">
 
-  <a href="https://wa.me/qr/3GOYYFHLHWESA1" class="con d-flex align-items-center justify-content-center active">
+  <a href="https://wa.me/+249926611304" class="con d-flex align-items-center justify-content-center active">
     <i class="fa fa-whatsapp"></i></a>
   <!-- <a href="tel:+249961047266" class="con1 d-flex align-items-center justify-content-center active">
         <i class="fa fa-instagram"></i></a> -->
-  <a href="" class="con1 d-flex align-items-center justify-content-center active">
-    <img class="img-thumbnail rounded-circle" src="../Images/fangIcons/whatsapp.png" width="50" height="50" alt="">
+  <a href="https://wa.me/+249926611304" class="con1 d-flex align-items-center justify-content-center active">
+    <img class="img-thumbnail rounded-circle" src="../images/fangIcons/whatsapp.png" width="50" height="50" alt="">
   </a>
   <a href="" class="con d-flex align-items-center justify-content-center active">
-    <img class="img-thumbnail rounded-circle" src="../Images/fangIcons/instgram.png" width="50" height="50" alt="">
+    <img class="img-thumbnail rounded-circle" src="../images/fangIcons/instgram.png" width="50" height="50" alt="">
   </a>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.php">
-        <img src="../images/logo.png" alt="ShopEase Logo" height="40">
+        <!-- <img src="../images/logo.png" alt="ShopEase Logo" height="40"> -->
         CODE SUDAN
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -68,28 +94,8 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero-section mt-0" data-aos="fade-up">
-    <div class="container">
-      <div class="row align-items-center min-vh-100">
-        <div class="col-md-6" data-aos="fade-right" data-aos-delay="200">
-          <h1 class="display-4 fw-bold">Welcome to ShopEase</h1>
-          <p class="lead">Discover amazing products at incredible prices.</p>
-          <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a>
-        </div>
-        <div class="col-md-6" data-aos="fade-left" data-aos-delay="400">
-          <img src="../../images/backgrounds/background3.jpg" alt="Shopping" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-
-  <!-- Header Section -->
-  <section data-aos="fade-up" data-aos-delay="200">
+ 
+  <section class=" mb-5" data-aos="fade-up" data-aos-delay="200">
 
     <?php //require_once('../includes/header/header-inc.php');  
     ?>
@@ -98,7 +104,7 @@
       <!-- <div class="col"> -->
 
       <img
-        src="../../images/backgrounds/background3.jpg"
+        src="../images/backgrounds/background4.jpg"
         class="img-fluid"
         alt="image desc"
         width="100%" />
@@ -107,266 +113,80 @@
     </div>
   </section>
   <!-- End Header Section -->
-  <!-- Header Section -->
-  <section class="mt-5" data-aos="fade-up" data-aos-delay="100">
-    <div class="container bg-white">
-      <div class="row">
-        <div class="col" data-aos="fade-right" data-aos-delay="150">
-          <div class="card">
-            <img src="" alt="">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text"></p>
-              <div class="text-warning">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-              </div>
-              <a href="#" class="btn btn-primary pull-right"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col" data-aos="fade-up" data-aos-delay="200">
-          <div class="card">
-            <img src="" alt="">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text"></p>
-              <div class="text-warning">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-              </div>
-              <a href="#" class="btn btn-primary pull-right"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col" data-aos="fade-up" data-aos-delay="200">
-          <div class="card">
-            <img src="" alt="">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text"></p>
-              <div class="text-warning">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-              </div>
-              <a href="#" class="btn btn-primary pull-right"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col" data-aos="fade-left" data-aos-delay="300">
-          <div class="card">
-            <img src="" alt="">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text"></p>
-              <div class="text-warning">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-              </div>
-              <a href="#" class="btn btn-primary pull-right"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Header Section -->
-  <!-- Header Section -->
-  <section class="mt-5">
-    <div class="container bg-white">
-      <div class="row">
-        <div class="col">
-          <h1>Code Sudan Company</h1>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Header Section -->
-  <section class="hero-section mt-0" data-aos="fade-up">
-    <div class="container">
-      <div class="row align-items-center min-vh-100">
-        <div class="col-md-6" data-aos="fade-right" data-aos-delay="200">
-          <h1 class="display-4 fw-bold">Welcome to ShopEase</h1>
-          <p class="lead">تصاميم متجاوبة مع كل الشاشات</p>
-          <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a>
-        </div>
-        <div class="col-md-6" data-aos="fade-left" data-aos-delay="400">
-          <img src="../../images/backgrounds/background3.jpg" alt="Shopping" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="hero-section mt-0" data-aos="fade-up">
-    <div class="container">
-      <div class="row align-items-center min-vh-100">
-        <div class="col-md-6" data-aos="fade-right" data-aos-delay="200">
-          <h1 class="display-4 fw-bold">Welcome to ShopEase</h1>
-          <p class="lead">تصاميم متجاوبة مع كل الشاشات</p>
-          <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a>
-        </div>
-        <div class="col-md-6" data-aos="fade-left" data-aos-delay="400">
-          <img src="../../images/backgrounds/background3.jpg" alt="Shopping" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="hero-section mt-0" data-aos="fade-up">
-    <div class="container">
-      <div class="row align-items-center min-vh-100">
-        <div class="col-md-6" data-aos="fade-right" data-aos-delay="200">
-          <h1 class="display-4 fw-bold">Welcome to ShopEase</h1>
-          <p class="lead">تصاميم متجاوبة مع كل الشاشات</p>
-          <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a>
-        </div>
-        <div class="col-md-6" data-aos="fade-left" data-aos-delay="400">
-          <img src="../../images/backgrounds/background3.jpg" alt="Shopping" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="mt-5 mb-5 pt-5 pb-5 bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-left" data-aos-delay="150">
-          <div class="card border border-rounded rounded rounded-3">
-            <img src="../images/backgrounds/background1.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">
-                we design responsive and beautiful designs for your buisness.
-              </p>
-
-              <a href="#" class="btn btn-primary pull-right">
-                view more...
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-up" data-aos-delay="150">
-          <div class="card border border-rounded rounded rounded-3">
-            <img src="../images/backgrounds/background1.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">
-                we design responsive and beautiful designs for your buisness.
-              </p>
-
-              <a href="#" class="btn btn-primary pull-right">
-                view more...
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-up" data-aos-delay="150">
-          <div class="card border border-rounded rounded rounded-3">
-            <img src="../images/backgrounds/background1.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">
-                we design responsive and beautiful designs for your buisness.
-              </p>
-
-              <a href="#" class="btn btn-primary pull-right">
-                view more...
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
-          <div class="card border border-rounded rounded rounded-3">
-            <img src="../images/backgrounds/background1.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">
-                we design responsive and beautiful designs for your buisness.
-              </p>
-
-              <a href="#" class="btn btn-primary pull-right">
-                view more...
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+ 
   <section>
-    <div class="container rounded-5 bg-primary">
-      <div class="row">
-        <div class="col">
-          <p>
-            we are not just design your website we fulfill your dreams.
-          </p>
+    <!--this is to add new comment-->
+
+    <div class="container  mt-5 mb-5">
+      <div class="container  bg-white mt-2 mb-5">
+        <div class="row ">
+          <div class="col text-center">
+            <hr class="text-danger">
+          </div>
+          <div class="col col-2 text-center">
+            <h1>تواصل معنا</h1>
+          </div>
+          <div class="col text-center">
+            <hr>
+          </div>
         </div>
       </div>
+      <form style="direction:rtl;" method="post" action="addArticle3.php" data-aos="fade-left" data-aos-delay="200">
+        <input class="form-control" type="hidden" name="fileName" value="articles2.js">
+        <input class="form-control" type="hidden" name="language" vlaue="php">
+        <input class="form-control" type="hidden" name="lesson" value="lesson1">
+
+        <input class="form-control border border-2 border-primary mt-2" type="text" name="userName"
+          id="Name" placeholder="ادخل اسمك">
+        <input class="form-control border border-2 border-primary mt-2" type="email" name="userEmail"
+          id="Email" placeholder="بريدك الالكتروني">
+        <div class="form-group mt-2">
+          <textarea class="form-control border border-2 border-primary" name="userComment"
+            id="Comment" rows="3" placeholder="اكتب الرسالة"></textarea>
+          <textarea class="form-control" id="json" name="json" rows="3" hidden></textarea>
+        </div>
+        <button
+          type="submit"
+          class=" form-control btn btn-primary mt-3 pt-2 pb-2">
+          ارسل الرسالة
+        </button>
+
+      </form>
     </div>
+    <!--this is to add new comment-->
   </section>
-
-<section>
-   <!--this is to add new comment-->
-   <div class="container  mt-5 mb-3">
-                    <form method="post" action="addArticle3.php" data-aos="fade-left" data-aos-delay="200">
-                        <input class="form-control" type="hidden" name="fileName" value="articles2.js">
-                        <input class="form-control" type="hidden" name="language" vlaue="php">
-                        <input class="form-control" type="hidden" name="lesson" value="lesson1">
-
-                        <input class="form-control border border-2 border-primary m-2" type="text" name="userName"
-                            id="Name" placeholder="ادخل اسمك">
-                        <input class="form-control border border-2 border-primary m-2" type="email" name="userEmail"
-                            id="Email" placeholder="بريدك الالكتروني">
-                        <div class="form-group">
-                            <textarea class="form-control border border-2 border-primary m-2" name="userComment"
-                                id="Comment" rows="3" placeholder="اكتب الرسالة"></textarea>
-                            <textarea class="form-control" id="json" name="json" rows="3" hidden></textarea>
-                        </div>
-                       
-                    </form>
-                </div>
-                <!--this is to add new comment-->
-</section>
   <!-- Footer -->
-  <footer class="bg-dark text-light py-4">
+  <footer class="bg-dark text-light">
     <div class="container">
-      <div class="row">
+      <div class="row pt-5">
         <div class="col-md-4">
-          <h5>About ShopEase</h5>
-          <p>Your premium shopping destination for quality products and excellent service.</p>
-        </div>
-        <div class="col-md-4">
-          <h5>Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="privacy.php">Privacy Policy</a></li>
-            <li><a href="terms.php">Terms & Conditions</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h5>Connect With Us</h5>
-          <div class="social-links">
+          <h5 class="text-center">تواصل معنا</h5>
+          <div class="social-links text-center mt-5">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
+
+        <div class="col-md-4">
+          <h5 class="text-center">الصفحات</h5>
+          <ul class="list-unstyled text-center mt-5">
+            <li><a class="text-white" href="about.php" style="text-decoration:none;">حول الموقع</a></li>
+            <li><a class="text-white" href="contact.php" style="text-decoration:none;">التواصل</a></li>
+            <li><a class="text-white" href="privacy.php" style="text-decoration:none;">خدماتنات</a></li>
+            <li><a class="text-white" href="terms.php" style="text-decoration:none;">نماذج اعمالنا</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-center">كود سودان</h5>
+          <p class="text-center mt-5">موقع كود سودان هو موقع الكتروني متخصص في تصميم وبرمجة المواقع و المتاجر الالكترونية للافراد و الشركات</p>
+        </div>
+
       </div>
     </div>
   </footer>
-
+  <!-- End Footer Section-->
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
