@@ -7,10 +7,10 @@
     <link href="../../images/logo.png" rel="icon">
     <link href="../../images/logo.png" rel="apple-touch-icon">
     <!-- Favicons -->
-    <link rel="stylesheet" href="../Assets/bootstrap/css/bootstrap.css">
-    <script src="../Assets/js/jquery.3.6.7.js"></script>
-    <script src="../Assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../Assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../../Assets/bootstrap/css/bootstrap.css">
+    <script src="../../Assets/js/jquery.3.6.7.js"></script>
+    <!-- <script src="../../Assets/bootstrap/js/bootstrap.min.js"></script> -->
+    <!-- <script src="../../Assets/bootstrap/js/bootstrap.bundle.js"></script> -->
     <script src="../search/search.js"></script>
         <!-- Font Awoesome -->
-    <link href="../Assets/fontawesome-free-6.3.0-web/css/all.css" rel="stylesheet">
+    <link href="../../Assets/fontawesome-free-6.3.0-web/css/all.css" rel="stylesheet">

@@ -70,7 +70,7 @@
                 </form> -->
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="ourmodels.php"><i class="fas fa-user"></i> نماذج اعمالنا</a>
+            <a class="nav-link" href="moduls.php"><i class="fas fa-user"></i> نماذج اعمالنا</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contacts.php"><i class="fas fa-user"></i> التواصل</a>
@@ -221,7 +221,7 @@
             <hr class="">
           </div>
           <div class="col col-4 col-md-2 text-center">
-            <h1 class="text-dark">من نحن</h1>
+            <h6 class="text-dark">من نحن</h6>
           </div>
           <div class="col text-center">
             <hr>
@@ -251,7 +251,7 @@
           <hr class="text-danger">
         </div>
         <div class="col col-4 col-md-2 text-center mt-2 mb-2">
-          <h1 class="text-dark">مجال عملنا</h1>
+          <h6 class="text-dark">مجال عملنا</h6>
         </div>
         <div class="col text-center">
           <hr>
@@ -331,7 +331,7 @@
             <hr class="text-danger">
           </div>
           <div class="col col-2 text-center">
-            <h1>خبراتنا</h1>
+            <h6>خبراتنا</h6>
           </div>
           <div class="col text-center">
             <hr>
@@ -585,8 +585,8 @@
             <div class="col text-center">
               <hr class="text-danger">
             </div>
-            <div class="col col-2 text-center text-dark">
-              <h1>ما يميزنا</h1>
+            <div class="col col-4 col-md-2 text-center text-dark">
+              <h6>ما يميزنا</h6>
             </div>
             <div class="col text-center ">
               <hr class="text-danger">
@@ -652,13 +652,13 @@
     <!--this is to add new comment-->
 
     <div class="container  mt-5 mb-5">
-      <div class="container  bg-white mt-2 mb-5">
+      <div class="container  bg-white mt-2 mb-5 pt-3 pb-2">
         <div class="row ">
           <div class="col text-center">
             <hr class="text-danger">
           </div>
-          <div class="col col-2 text-center">
-            <h1>تواصل معنا</h1>
+          <div class="col col-4 col-md-2 text-center">
+            <h6>تواصل معنا</h6>
           </div>
           <div class="col text-center">
             <hr>
@@ -690,7 +690,7 @@
     <!--this is to add new comment-->
   </section>
   <!-- Footer -->
-  <footer class="bg-dark text-light">
+  <!-- <footer class="bg-dark text-light">
     <div class="container">
       <div class="row pt-5">
          <div class="col-md-4">
@@ -719,7 +719,7 @@
         
       </div>
     </div>
-  </footer>
+  </footer> -->
  <!-- End Footer Section-->
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
