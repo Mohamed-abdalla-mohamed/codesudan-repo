@@ -32,45 +32,9 @@
         <img class="img-thumbnail rounded-circle" src="../Images/fangIcons/instgram.png" width="50" height="50" alt="">
     </a>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.php">
-        <img src="../images/logo.png" alt="ShopEase Logo" height="40">
-        CODE SUDAN
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <!-- <form class="d-flex mx-auto" action="search.php" method="GET">
-                    <input class="form-control me-2" type="search" name="q" placeholder="Search products..." aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit"><i class="fas fa-search"></i></button>
-                </form> -->
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="ourmodels.php"><i class="fas fa-user"></i> نماذج اعمالنا</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacts.php"><i class="fas fa-user"></i> التواصل</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="services.php"><i class="fas fa-user"></i> خدماتنا</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.php"><i class="fas fa-user"></i> حول</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.php">
-              <!-- <i class="fas fa-shopping-cart"></i> Cart
-                            <span class="badge bg-primary cart-count">0</span> -->
-              الرئيسية
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <?php
+     require_once('../includes/header/header-inc.php');
+ ?>
 
 
 
@@ -767,36 +731,9 @@
     </div>
    </section>
     <!-- Footer -->
-  <footer class="bg-dark text-light">
-    <div class="container">
-      <div class="row pt-5">
-         <div class="col-md-4">
-          <h5 class="text-center">تواصل معنا</h5>
-          <div class="social-links text-center mt-5">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-       
-        <div class="col-md-4">
-          <h5 class="text-center">الصفحات</h5>
-          <ul class="list-unstyled text-center mt-5">
-            <li><a class="text-white" href="about.php" style="text-decoration:none;">حول الموقع</a></li>
-            <li><a class="text-white" href="contact.php" style="text-decoration:none;">التواصل</a></li>
-            <li><a class="text-white" href="privacy.php" style="text-decoration:none;">خدماتنات</a></li>
-            <li><a class="text-white" href="terms.php" style="text-decoration:none;">نماذج اعمالنا</a></li>
-          </ul>
-        </div>
-         <div class="col-md-4">
-          <h5 class="text-center">كود سودان</h5>
-          <p class="text-center mt-5">موقع كود سودان هو موقع الكتروني متخصص في تصميم وبرمجة المواقع و المتاجر الالكترونية للافراد و الشركات</p>
-        </div>       
-        
-      </div>
-    </div>
-  </footer>
+ <?php
+     require_once('../includes/footer/footer-inc.php');
+ ?>
  <!-- End Footer Section-->
 
     <!-- Scripts -->

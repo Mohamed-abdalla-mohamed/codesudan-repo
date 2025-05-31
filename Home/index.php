@@ -25,26 +25,29 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=El+Messiri:wght@400..700&family=Lateef:wght@200;300;400;500;600;700;800&family=Rakkas&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
 
-  <style>
+  <!-- <style>
     * {
       font-family: "Amiri", serif;
       font-weight: 400;
       font-style: normal;
     }
-  </style>
-
-  <!-- <style>
+  </style> -->
+<!-- 
+  <style>
     *{
       direction: rtl;
       font-family:sans-serif ;
-    }
-  </style> -->
+    
+    } -->
+      
+  </style>
+  
 </head>
 
 <body class="" style="background-color: #1B1464;">
 
-  <a href="https://wa.me/+249926611304" class="con d-flex align-items-center justify-content-center active">
-    <i class="fa fa-whatsapp"></i></a>
+  <!-- <a href="https://wa.me/+249926611304" class="con d-flex align-items-center justify-content-center active">
+    <i class="fa fa-whatsapp"></i></a> -->
   <!-- <a href="tel:+249961047266" class="con1 d-flex align-items-center justify-content-center active">
         <i class="fa fa-instagram"></i></a> -->
   <a href="https://wa.me/+249926611304" class="con1 d-flex align-items-center justify-content-center active">
@@ -54,45 +57,9 @@
     <img class="img-thumbnail rounded-circle" src="../images/fangIcons/instgram.png" width="50" height="50" alt="">
   </a>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.php">
-        <!-- <img src="../images/logo.png" alt="ShopEase Logo" height="40"> -->
-        CODE SUDAN
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <!-- <form class="d-flex mx-auto" action="search.php" method="GET">
-                    <input class="form-control me-2" type="search" name="q" placeholder="Search products..." aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit"><i class="fas fa-search"></i></button>
-                </form> -->
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="moduls.php"><i class="fas fa-user"></i> نماذج اعمالنا</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacts.php"><i class="fas fa-user"></i> التواصل</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="services.php"><i class="fas fa-user"></i> خدماتنا</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.php"><i class="fas fa-user"></i> حول</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.php">
-              <!-- <i class="fas fa-shopping-cart"></i> Cart
-                            <span class="badge bg-primary cart-count">0</span> -->
-              الرئيسية
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+ <?php
+     require_once('../includes/header/header-inc.php');
+ ?>
 
   <!-- Hero Section -->
   <!-- <section class="hero-section mt-0" data-aos="fade-up">
@@ -212,7 +179,7 @@
     </div>
   </section> -->
   <!-- End Header Section -->
-  <section class="hero-section mt-0 mb-5" data-aos="fade-up">
+  <section class="bg-white mt-0 mb-5" data-aos="fade-up">
 
     <div class="container">
       <div class="container mt-2 mb-3">
@@ -445,7 +412,7 @@
     </div>
   </section>
 
-  <section class="hero-section mt-5 mb-5" data-aos="fade-up">
+  <section class="bg-white mt-5 mb-5" data-aos="fade-up">
     <div class="container">
       <div class="row align-items-center ">
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
@@ -461,7 +428,7 @@
       </div>
     </div>
   </section>
-  <section class="hero-section mt-5 mb-5" data-aos="fade-up">
+  <section class="bg-white mt-5 mb-5" data-aos="fade-up">
 
     <div class="container">
       <div class="row align-items-center ">
@@ -469,14 +436,11 @@
           <img src="../images/backgrounds/background4.jpg" alt="Shopping" class="img-fluid">
         </div>
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
-          <!-- <h1 class="display-4 fw-bold">Welcome to ShopEase</h1> -->
-          <p class=" h1" style="direction: rtl; text-align: center;">تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات
-            تصاميم متجاوبة مع كل الشاشات</p>
-          <!-- <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a> -->
+          <p class=" h1" style="direction: rtl; text-align: right; text-wrap:inherit">
+             صمم موقعك او متجرك الالكتروني معنا وابدء ببيع منتجاتك للعملاء في مختلف انحاء العالم 
+         باستخدام نظم الدفع الالكتروني المختلفة مثل (بايبال-فيزا-ماستركارد)
+           وغيرها.
+        </p>
         </div>
 
       </div>
@@ -690,36 +654,9 @@
     <!--this is to add new comment-->
   </section>
   <!-- Footer -->
-  <!-- <footer class="bg-dark text-light">
-    <div class="container">
-      <div class="row pt-5">
-         <div class="col-md-4">
-          <h5 class="text-center">تواصل معنا</h5>
-          <div class="social-links text-center mt-5">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-       
-        <div class="col-md-4">
-          <h5 class="text-center">الصفحات</h5>
-          <ul class="list-unstyled text-center mt-5">
-            <li><a class="text-white" href="about.php" style="text-decoration:none;">حول الموقع</a></li>
-            <li><a class="text-white" href="contact.php" style="text-decoration:none;">التواصل</a></li>
-            <li><a class="text-white" href="privacy.php" style="text-decoration:none;">خدماتنات</a></li>
-            <li><a class="text-white" href="terms.php" style="text-decoration:none;">نماذج اعمالنا</a></li>
-          </ul>
-        </div>
-         <div class="col-md-4">
-          <h5 class="text-center">كود سودان</h5>
-          <p class="text-center mt-5">موقع كود سودان هو موقع الكتروني متخصص في تصميم وبرمجة المواقع و المتاجر الالكترونية للافراد و الشركات</p>
-        </div>       
-        
-      </div>
-    </div>
-  </footer> -->
+ <?php
+     require_once('../includes/footer/footer-inc.php');
+ ?>
  <!-- End Footer Section-->
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
