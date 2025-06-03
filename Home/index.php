@@ -16,8 +16,8 @@
   <?php
   require_once('../includes/head/head.php');
   ?>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="socialmediaicons.css">
@@ -53,7 +53,7 @@
   <a href="https://wa.me/+249926611304" class="con1 d-flex align-items-center justify-content-center active">
     <img class="img-thumbnail rounded-circle" src="../images/fangIcons/whatsapp.png" width="50" height="50" alt="">
   </a>
-  <a href="" class="con d-flex align-items-center justify-content-center active">
+  <a href="https://web.facebook.com/almgromalmgroma/?locale=ar" class="con d-flex align-items-center justify-content-center active">
     <img class="img-thumbnail rounded-circle" src="../images/fangIcons/instgram.png" width="50" height="50" alt="">
   </a>
   <!-- Navigation -->
@@ -80,13 +80,12 @@
 
 
 
-
   <!-- Header Section -->
   <section class=" mb-5" data-aos="fade-up" data-aos-delay="200">
 
     <?php //require_once('../includes/header/header-inc.php');  
     ?>
-    <div class=" bg-light" style="min-height: 400px;">
+    <div class=" bg-light" style="min-height: 300px;">
       <!-- <div class="row"> -->
       <!-- <div class="col"> -->
 
@@ -113,7 +112,7 @@
               </h5>
               <p class="card-text"></p>
               <div class="text-dark">
-                <h4 class="text-center">سرعة في التنفيذ</h4>
+                <h6 class="text-center">سرعة في التنفيذ</h6>
               </div>
               <!-- <a href="#" class="btn btn-primary pull-right"></a> -->
             </div>
@@ -128,7 +127,7 @@
               </h5>
               <p class="card-text"></p>
               <div class="text-dark">
-                <h4 class="text-center">دقة في التصميم</h4>
+                <h6 class="text-center">دقة في التصميم</h6>
               </div>
               <!-- <a href="#" class="btn btn-primary pull-right"></a> -->
             </div>
@@ -143,7 +142,7 @@
               </h5>
               <p class="card-text"></p>
               <div class="text-dark">
-                <h4 class="text-center">تصاميم تفاعلية</h4>
+                <h6 class="text-center">تصاميم تفاعلية</h6>
               </div>
               <!-- <a href="#" class="btn btn-primary pull-right"></a> -->
             </div>
@@ -158,7 +157,7 @@
               </h5>
               <p class="card-text"></p>
               <div class="text-dark">
-                <h4 class="text-center">التسليم في الموعد</h4>
+                <h6 class="text-center">التسليم في الموعد</h6>
               </div>
               <!-- <a href="#" class="btn btn-primary pull-right"></a> -->
             </div>
@@ -179,7 +178,7 @@
     </div>
   </section> -->
   <!-- End Header Section -->
-  <section class="bg-white mt-0 mb-5" data-aos="fade-up">
+  <section class="bg-white mt-5 mb--5 pt-5 pb-5" data-aos="fade-up">
 
     <div class="container">
       <div class="container mt-2 mb-3">
@@ -198,7 +197,7 @@
       <div class="row  ">
         <div class="col col-12 col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
           <!-- <h1 class="display-4 fw-bold">Welcome to ShopEase</h1> -->
-          <p class=" h1" style="direction: rtl; text-align: center;">
+          <p class=" h2" style="direction: rtl; text-align: right;">
             كود سودان هو موقع متخصص في تصميم وبرمجة مواقع الويب و المتاجر الالكترونية و مواقع الشركات و المؤسسات و مواقع الخدمات وغيرها من المواقع الالترونية بانواعها المختلفة
 
           </p>
@@ -225,12 +224,12 @@
         </div>
       </div>
     </div>
-    <div class="container bg-dark">
+    <div class="container " style="background-color: #D4145A;">
       <div class="row">
 
         <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
           <div class="card border border-rounded rounded rounded-3">
-            <img src="../images/backgrounds/background1.jpg" alt="">
+            <img src="../images/readyaircond/readyaircond1.jpg" alt="">
             <div class="card-body text-center">
               <p class="card-text h3 mb-4 mt-3">
                 تصميم وبرمجة المتاجر الالكترونية
@@ -244,10 +243,10 @@
         </div>
         <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
           <div class="card border border-rounded rounded rounded-3">
-            <img src="../images/backgrounds/background1.jpg" alt="">
+            <img src="../images/readyaircond/readyaircond6.jpg" alt="">
             <div class="card-body text-center">
               <p class="card-text h3 mb-4 mt-3">
-                تصميم وبرمجة مواقع الشركات و المؤسسات
+                تصميم وبرمجة مواقع الشركات
               </p>
 
               <a href="#" class="btn btn-primary pull-right">
@@ -258,7 +257,7 @@
         </div>
         <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
           <div class="card border border-rounded rounded rounded-3">
-            <img src="../images/backgrounds/background1.jpg" alt="">
+            <img src="../images/iacsa/iacsa1.jpg" alt="">
             <div class="card-body text-center">
               <p class="card-text h3 mb-4 mt-3">
                 تصميم مواقع الخدمات الالكترونية
@@ -272,7 +271,7 @@
         </div>
         <div class="col col-12 col-sm-3 rounded rounded-5 mt-3 mb-3" data-aos="fade-right" data-aos-delay="150">
           <div class="card border border-rounded rounded rounded-3">
-            <img src="../images/backgrounds/background1.jpg" alt="">
+            <img src="../images/noorbarber/noorbarber.jpg" alt="">
 
             <div class="card-body text-center">
 
@@ -412,12 +411,12 @@
     </div>
   </section>
 
-  <section class="bg-white mt-5 mb-5" data-aos="fade-up">
+  <section class="bg-white mt-5 mb-5 pt-5 pb-5" data-aos="fade-up">
     <div class="container">
       <div class="row align-items-center ">
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
           <!-- <h1 class="display-4 fw-bold">Welcome to ShopEase</h1> -->
-          <p class=" h1" style="direction: rtl; text-align: center;">
+          <p class=" h2" style="direction: rtl; text-align: center;">
             في كود سودان نسعى لتصميم مواقع حديثة وعصرية تجذب الزوار و تلبي احتياجات العملاء
           </p>
           <!-- <a href="#featured-products" class="btn btn-primary btn-lg">Shop Now</a> -->
@@ -428,15 +427,15 @@
       </div>
     </div>
   </section>
-  <section class="bg-white mt-5 mb-5" data-aos="fade-up">
+  <section class="bg-white pt-5 pb-5 mt-5 mb-5" data-aos="fade-up" >
 
-    <div class="container">
-      <div class="row align-items-center ">
+    <div class="container ">
+      <div class="row align-items-center">
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-left" data-aos-delay="400">
           <img src="../images/backgrounds/background4.jpg" alt="Shopping" class="img-fluid">
         </div>
         <div class="col-md-6 mt-3 mb-3" data-aos="fade-right" data-aos-delay="200">
-          <p class=" h1" style="direction: rtl; text-align: right; text-wrap:inherit">
+          <p class=" h2" style="direction: rtl; text-align: right; text-wrap:inherit">
              صمم موقعك او متجرك الالكتروني معنا وابدء ببيع منتجاتك للعملاء في مختلف انحاء العالم 
          باستخدام نظم الدفع الالكتروني المختلفة مثل (بايبال-فيزا-ماستركارد)
            وغيرها.
@@ -562,34 +561,34 @@
           style="direction: rtl; list-style:none;">
 
 
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
+          <li class="nav-item h6 mt-3 mb-3">
+            <span class="ms-3"><i class="fa fa-arrow-left text-danger " aria-hidden="true">
                </i></span> <span class="text-white ">تصاميم متجاوبة مع كل الشاشات(التابليت - اللابتوب - الهاتف)</span>
           </li>
 
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true"> 
+          <li class="nav-item h6 mt-3 mb-3">
+            <span class="ms-3"><i class="fa fa-arrow-left text-danger " aria-hidden="true"> 
 
             </i></span> <span class="text-white "> جمع وتحليل متطلبات العميل جيدا قبل بدء العمل </span>
           </li>
 
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
+          <li class="nav-item h6 mt-3 mb-3">
+            <span class="ms-3"><i class="fa fa-arrow-left text-danger " aria-hidden="true">
                </i></span> <span class="text-white"> سرعة التواصل و الرد على استفسارات العميل</span>
           </li>
 
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
+          <li class="nav-item h6 mt-3 mb-3">
+            <span class="ms-3"><i class="fa fa-arrow-left text-danger " aria-hidden="true">
                </i></span> <span class="text-white "> اسعار تناسب العملاء </span>
           </li>
 
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
+          <li class="nav-item h6 mt-3 mb-3">
+            <span class="ms-3"><i class="fa fa-arrow-left text-danger " aria-hidden="true">
                </i></span> <span class="text-white ">تسليم المشروع في الموعد المتفق عليه</span>
           </li>
 
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
+          <li class="nav-item h6 mt-3 mb-3">
+            <span class="ms-3"><i class="fa fa-arrow-left text-danger " aria-hidden="true">
                </i></span> <span class="text-white "> تقديم الدعم الفن للعميل مجانا بعد التسليم </span>
           </li>
 
@@ -619,13 +618,13 @@
       <div class="container  bg-white mt-2 mb-5 pt-3 pb-2">
         <div class="row ">
           <div class="col text-center">
-            <hr class="text-danger">
+            <hr class="" style="border:5px solid #D4145A;">
           </div>
           <div class="col col-4 col-md-2 text-center">
-            <h6>تواصل معنا</h6>
+            <h6 class="mt-2">تواصل معنا</h6>
           </div>
           <div class="col text-center">
-            <hr>
+            <hr style="border:5px solid #D4145A; background-color: #D4145A; color: #D4145A;">
           </div>
         </div>
       </div>
@@ -653,6 +652,8 @@
     </div>
     <!--this is to add new comment-->
   </section>
+  
+
   <!-- Footer -->
  <?php
      require_once('../includes/footer/footer-inc.php');

@@ -35,15 +35,28 @@
  ?>
 
 <div class="container bg-white pt-3 pb-3 mt-5 mb-5">
-    <div class="row mt-5 mb-5">
+    <div class="container mt-2 mb-3">
+        <div class="row">
+          <div class="col text-center">
+            <hr class="text-danger">
+          </div>
+          <div class="col col-3 text-center">
+            <h2>خبراتنا</h2>
+          </div>
+          <div class="col text-center">
+            <hr>
+          </div>
+        </div>
+      </div>
+    <div class="row mb-5">
         <div class="col">
            
           <!-- <h5 class="text-center text-dark">كود سودان</h5> -->
-          <h1 class="text-center mt-5 text-dark">موقع كود سودان هو موقع الكتروني متخصص في تصميم وبرمجة
+          <h3 class="text-right mt-3 text-dark" style="direction: rtl;">موقع كود سودان هو موقع الكتروني متخصص في تصميم وبرمجة
              المواقع و المتاجر الالكترونية للافراد و الشركات 
            ومواقع تقديم الخدمات والمواقع الشخصية للافراض لعرض خدماته وغيرها من المواقع المختلفة 
             
-          </h1>
+          </h3>
       
         </div>
     </div>

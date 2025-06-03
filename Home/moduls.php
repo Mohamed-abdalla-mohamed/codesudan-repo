@@ -41,7 +41,7 @@
   </style> -->
 </head>
 
-<body class="" style="background-color: #1B1464;">
+<body class="" style="background-color: #FFFFFFFF;">
 
   <a href="https://wa.me/+249926611304" class="con d-flex align-items-center justify-content-center active">
     <i class="fa fa-whatsapp"></i></a>
@@ -60,108 +60,690 @@
 
 
 
-  <section>
-
-    <div class="container text-white">
-      <div class="row">
-        <div class="container  bg-white mt-3 mb-5">
-          <div class="row mt-3">
-            <div class="col text-center">
-              <hr class="text-danger">
-            </div>
-            <div class="col col-2 text-center text-dark">
-              <h1>ما يميزنا</h1>
-            </div>
-            <div class="col text-center ">
-              <hr class="text-danger">
-            </div>
-          </div>
-        </div>
-        <ul
-          class=" justify-content-center  "
-          style="direction: rtl; list-style:none;">
 
 
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
-              </i></span> <span class="text-white ">تصاميم متجاوبة مع كل الشاشات(التابليت - اللابتوب - الهاتف)</span>
-          </li>
-
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
-
-              </i></span> <span class="text-white "> جمع وتحليل متطلبات العميل جيدا قبل بدء العمل </span>
-          </li>
-
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
-              </i></span> <span class="text-white"> سرعة التواصل و الرد على استفسارات العميل</span>
-          </li>
-
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
-              </i></span> <span class="text-white "> اسعار تناسب العملاء </span>
-          </li>
-
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
-              </i></span> <span class="text-white ">تسليم المشروع في الموعد المتفق عليه</span>
-          </li>
-
-          <li class="nav-item h4">
-            <span class="ms-3"><i class="fa fa-arrow-left " aria-hidden="true">
-              </i></span> <span class="text-white "> تقديم الدعم الفن للعميل مجانا بعد التسليم </span>
-          </li>
-
-
-
-        </ul>
-      </div>
-    </div>
-  </section>
-
-
-  <section>
-    <!--this is to add new comment-->
-
-    <div class="container  mt-5 mb-5">
-      <div class="container  bg-white mt-2 mb-5 pt-3 pb-2">
-        <div class="row ">
+  
+  
+  <div class="container mt-sm-5">
+      <div class="container mt-2 mb-3">
+        <div class="row">
           <div class="col text-center">
             <hr class="text-danger">
           </div>
-          <div class="col col-2 text-center">
-            <h3>تواصل معنا</h3>
+          <div class="col col-4 text-center">
+            <h6>نماج اعمالنا</h6>
           </div>
           <div class="col text-center">
             <hr>
           </div>
         </div>
       </div>
-      <form style="direction:rtl;" method="post" action="addArticle3.php" data-aos="fade-left" data-aos-delay="200">
-        <input class="form-control" type="hidden" name="fileName" value="articles2.js">
-        <input class="form-control" type="hidden" name="language" vlaue="php">
-        <input class="form-control" type="hidden" name="lesson" value="lesson1">
+    <div class="row mt-md-5">
+      <div class="col mt-3 mb-3">
+        <!-- required bootstrap js -->
+        <!-- Carousel -->
+        <div class="img-fluid">
+          <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel"
+            style="padding:0px;background-color:#000000FF;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
 
-        <input class="form-control border border-2 border-primary mt-2" type="text" name="userName"
-          id="Name" placeholder="ادخل اسمك">
-        <input class="form-control border border-2 border-primary mt-2" type="email" name="userEmail"
-          id="Email" placeholder="بريدك الالكتروني">
-        <div class="form-group mt-2">
-          <textarea class="form-control border border-2 border-primary" name="userComment"
-            id="Comment" rows="3" placeholder="اكتب الرسالة"></textarea>
-          <textarea class="form-control" id="json" name="json" rows="3" hidden></textarea>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item   active" style="padding:0px 0px 0px 0px ;">
+                <img src="../images/readyaircond/readyaircond1.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/readyaircond/readyaircond2.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/readyaircond/readyaircond3.jpg" class="img-fluid"
+                  alt="...">
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/readyaircond/readyaircond4.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    product one
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Product two
+                  </h1>
+                </div>
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/readyaircond/readyaircond5.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    Product three
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Products four
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+          </div>
         </div>
-        <button
-          type="submit"
-          class=" form-control btn btn-primary mt-3 pt-2 pb-2">
-          ارسل الرسالة
-        </button>
+        <!-- Carousel End -->
+      </div>
+      <div class="col mt-3 mb-3">
+        <!-- required bootstrap js -->
+        <!-- Carousel -->
+        <div class="img-fluid">
+          <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel"
+            style="margin-top: 5px;padding:0px;background-color:#000000FF;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
 
-      </form>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item   active" style="padding:0px 30px 0px 0px ;">
+                <img src="../images/noorbarber/noorbarber.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/noorbarber/noorbarber2.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background1.jpg" class="img-fluid"
+                  alt="...">
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background2.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    product one
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Product two
+                  </h1>
+                </div>
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background4.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    Product three
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Products four
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+          </div>
+        </div>
+        <!-- Carousel End -->
+      </div>
     </div>
-    <!--this is to add new comment-->
-  </section>
+    <div class="row ">
+      <div class="col mt-3 mb-3">
+        <!-- required bootstrap js -->
+        <!-- Carousel -->
+        <div class="img-fluid">
+          <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel"
+            style="margin-top: 5px;padding:0px;background-color:#000000FF;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item   active" style="padding:0px 30px 0px 0px ;">
+                <img src="../images/iacsa/iacsa1.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/iacsa/iacsa2.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/iacsa/iacsa3.jpg" class="img-fluid"
+                  alt="...">
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/iacsa/iacsa4.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    product one
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Product two
+                  </h1>
+                </div>
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/iacsa/iacsa5.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    Product three
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Products four
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+          </div>
+        </div>
+        <!-- Carousel End -->
+      </div>
+      <div class="col mt-3 mb-3">
+        <!-- required bootstrap js -->
+        <!-- Carousel -->
+        <div class="img-fluid">
+          <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel"
+            style="margin-top: 5px;padding:0px;background-color:#000000FF;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item   active" style="padding:0px 30px 0px 0px ;">
+                <img src="../images/backgrounds/background1.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background4.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background1.jpg" class="img-fluid"
+                  alt="...">
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background2.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    product one
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Product two
+                  </h1>
+                </div>
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background4.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    Product three
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Products four
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+          </div>
+        </div>
+        <!-- Carousel End -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col mt-3 mb-3">
+        <!-- required bootstrap js -->
+        <!-- Carousel -->
+        <div class="img-fluid">
+          <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel"
+            style="margin-top: 5px;padding:0px;background-color:#000000FF;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item   active" style="padding:0px 30px 0px 0px ;">
+                <img src="../images/backgrounds/background1.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background4.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background1.jpg" class="img-fluid"
+                  alt="...">
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background2.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    product one
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Product two
+                  </h1>
+                </div>
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background4.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    Product three
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Products four
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+          </div>
+        </div>
+        <!-- Carousel End -->
+      </div>
+      <div class="col mt-3 mb-3">
+        <!-- required bootstrap js -->
+        <!-- Carousel -->
+        <div class="img-fluid">
+          <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel"
+            style="margin-top: 5px;padding:0px;background-color:#000000FF;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item   active" style="padding:0px 30px 0px 0px ;">
+                <img src="../images/backgrounds/background1.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background4.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background1.jpg" class="img-fluid"
+                  alt="...">
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background2.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    product one
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Product two
+                  </h1>
+                </div>
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background4.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    Product three
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Products four
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+          </div>
+        </div>
+        <!-- Carousel End -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col mt-3 mb-3">
+        <!-- required bootstrap js -->
+        <!-- Carousel -->
+        <div class="img-fluid">
+          <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel"
+            style="margin-top: 5px;padding:0px;background-color:#000000FF;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item   active" style="padding:0px 30px 0px 0px ;">
+                <img src="../images/backgrounds/background1.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background4.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background1.jpg" class="img-fluid"
+                  alt="...">
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background2.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    product one
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Product two
+                  </h1>
+                </div>
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background4.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    Product three
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Products four
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+          </div>
+        </div>
+        <!-- Carousel End -->
+      </div>
+      <div class="col mt-3 mb-3">
+        <!-- required bootstrap js -->
+        <!-- Carousel -->
+        <div class="img-fluid">
+          <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel"
+            style="margin-top: 5px;padding:0px;background-color:#000000FF;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item   active" style="padding:0px 30px 0px 0px ;">
+                <img src="../images/backgrounds/background1.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background4.jpg" class="img-fluid"
+                  alt="...">
+
+
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background1.jpg" class="img-fluid"
+                  alt="...">
+
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background2.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    product one
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Product two
+                  </h1>
+                </div>
+              </div>
+              <div class="carousel-item " style="padding: 0px 0px 0px 0px ;">
+                <img src="../images/backgrounds/background4.jpg" class="img-fluid"
+                  alt="...">
+
+
+                <div class="carousel-caption d-none d-md-block" style="margin:0px  70px 0px 20px; padding-top:100px">
+                  <h1 class="text-right">
+                    Product three
+                  </h1>
+                  <h1 class="text-right text-success">
+                    Products four
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+          </div>
+        </div>
+        <!-- Carousel End -->
+      </div>
+    </div>
+ 
+  </div>
   <!-- Footer -->
   <?php
   require_once('../includes/footer/footer-inc.php');

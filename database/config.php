@@ -37,7 +37,7 @@ define('LOCAL_CERTIFICATE', FALSE); // TRUE or FALSE
 define('DB_HOST', 'localhost'); 
 define('DB_USERNAME', 'root'); 
 define('DB_PASSWORD', ''); 
-define('DB_NAME', 'wadeseerstore'); 
+define('DB_NAME', 'users_messages'); 
 
 // Change not required 
 define('PAYPAL_URL', (PAYPAL_SANDBOX === true)?"https://www.sandbox.paypal.com/cgi-bin/webscr":"https://www.paypal.com/cgi-bin/webscr");

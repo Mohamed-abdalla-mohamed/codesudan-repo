@@ -1,5 +1,7 @@
 <?php 
     namespace Busines;
+
+    require_once('../database/dbConnect.php');
     
     use Database;
     use mysqli;
@@ -44,10 +46,11 @@
         }
 
         public function saveMessageToDatabase(array $user_data):bool{
-            $user_name    = $user_data['user_name'];
-            $user_email   = $user_data['user_email'];
-            $user_message = $user_data['user_message'];
-            $sql = "";
+            // $user_name    = $user_data['user_name'];
+            // $user_email   = $user_data['user_email'];
+            // $user_message = $user_data['user_message'];
+            $sql = "INSERT INTO `messages` (`user_id`, `user_name`, `user_email`, `user_message`) 
+            VALUES (NULL, 'mohamed abdalla ', 'almgromalmgroma@gmail.com', 'hello i am mohamed abdalla i wnat to design website for my busines so can you do it for me and how it going to cost me .')";
             $resul = mysqli_query($this->conn,$sql);
             if($resul)
             {
@@ -60,5 +63,10 @@
         }
     }
     $send = new UserMessages('Mohamed',"almgroma@gmail.com","This is my message ");
-    $send->sendUserMessage();
+    $user_name = $_POST['user_name'];
+    $user_email = $_POST['user_email'];
+    $user_message = $_POST['user_message'];
+    $user_data = [];
+    array_push($user_data,[$user_name,$user_email,$user_message]);
+    $send->sendUserMessage($user_data);
 ?>

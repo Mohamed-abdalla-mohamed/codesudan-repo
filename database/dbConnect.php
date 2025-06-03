@@ -3,7 +3,7 @@
 require_once 'config.php'; 
  
 // Enter your Host, username, password, database below.
-$con = mysqli_connect("localhost", "root","","wadeseerstore");
+$con = mysqli_connect("localhost", "root","","users_messages");
 if(!$con){
 	die("Connection Error !!".mysqli_connect_error());
 }
@@ -26,7 +26,7 @@ class Database{
   public function getDbConnection():mysqli{
       
 // Enter your Host, username, password, database below.
-$con = mysqli_connect("localhost","root","","wadeseerstore");
+$con = mysqli_connect("localhost","root","","users_messages");
 if(!$con){
 	die("Connection Error !!".mysqli_connect_error());
 }

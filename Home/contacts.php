@@ -94,17 +94,17 @@
           </div>
         </div>
       </div>
-      <form style="direction:rtl;" method="post" action="addArticle3.php" data-aos="fade-left" data-aos-delay="200">
+      <form style="direction:rtl;" method="post" action="../busines/userMessages.php" data-aos="fade-left" data-aos-delay="200">
         <input class="form-control" type="hidden" name="fileName" value="articles2.js">
         <input class="form-control" type="hidden" name="language" vlaue="php">
         <input class="form-control" type="hidden" name="lesson" value="lesson1">
 
-        <input class="form-control border border-2 border-primary mt-2" type="text" name="userName"
+        <input class="form-control border border-2 border-primary mt-2" type="text" name="user_name"
           id="Name" placeholder="ادخل اسمك">
-        <input class="form-control border border-2 border-primary mt-2" type="email" name="userEmail"
+        <input class="form-control border border-2 border-primary mt-2" type="email" name="user_email"
           id="Email" placeholder="بريدك الالكتروني">
         <div class="form-group mt-2">
-          <textarea class="form-control border border-2 border-primary" name="userComment"
+          <textarea class="form-control border border-2 border-primary" name="user_message"
             id="Comment" rows="3" placeholder="اكتب الرسالة"></textarea>
           <textarea class="form-control" id="json" name="json" rows="3" hidden></textarea>
         </div>
